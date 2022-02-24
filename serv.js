@@ -75,8 +75,8 @@ mobilenumber: 123456,
   for(let i =0;i<5;i++){
     let w = await userschema.create(data_value[i]);
     console.log("sucess at", w);
-  // let h= await userdata.create(data_perosnal[i]);
-  // console.log("sucess at"+h);
+   let h= await userdata.create(data_perosnal[i]);
+   console.log("sucess at"+h);
   }
 }
 
